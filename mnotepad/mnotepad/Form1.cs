@@ -37,6 +37,9 @@ namespace mnotepad
                 Maintxt.BackColor = SystemColors.Window;
                 Maintxt.ForeColor = Color.Black;
                 dark.Checked = false;
+                MenuBar.BackColor= Color.White;
+                MenuBar.ForeColor=Color.Black;
+                
             }
         }
         private void topon_Click(object sender, EventArgs e)
