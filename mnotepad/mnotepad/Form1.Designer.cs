@@ -90,7 +90,7 @@
             // 
             this.newfilebtn.Image = global::mnotepad.Properties.Resources.Mac_Mini_DVD;
             this.newfilebtn.Name = "newfilebtn";
-            this.newfilebtn.Size = new System.Drawing.Size(174, 36);
+            this.newfilebtn.Size = new System.Drawing.Size(194, 36);
             this.newfilebtn.Text = "فایل جدید";
             this.newfilebtn.Click += new System.EventHandler(this.newfilebtn_Click);
             // 
@@ -98,7 +98,7 @@
             // 
             this.openfilebtn.Image = global::mnotepad.Properties.Resources.Favorites_Folder_Black;
             this.openfilebtn.Name = "openfilebtn";
-            this.openfilebtn.Size = new System.Drawing.Size(174, 36);
+            this.openfilebtn.Size = new System.Drawing.Size(194, 36);
             this.openfilebtn.Text = "بازکردن";
             this.openfilebtn.Click += new System.EventHandler(this.openfilebtn_Click);
             // 
@@ -106,7 +106,7 @@
             // 
             this.savefilebtn.Image = global::mnotepad.Properties.Resources.HD_tapa_pegatina_Black;
             this.savefilebtn.Name = "savefilebtn";
-            this.savefilebtn.Size = new System.Drawing.Size(174, 36);
+            this.savefilebtn.Size = new System.Drawing.Size(194, 36);
             this.savefilebtn.Text = "ذخیره";
             this.savefilebtn.Click += new System.EventHandler(this.savefilebtn_Click);
             // 
@@ -114,7 +114,7 @@
             // 
             this.saveasbtn.Image = global::mnotepad.Properties.Resources.HD_DVD_2;
             this.saveasbtn.Name = "saveasbtn";
-            this.saveasbtn.Size = new System.Drawing.Size(174, 36);
+            this.saveasbtn.Size = new System.Drawing.Size(194, 36);
             this.saveasbtn.Text = "ذخیره به عنوان";
             this.saveasbtn.Click += new System.EventHandler(this.saveasbtn_Click);
             // 
@@ -122,14 +122,15 @@
             // 
             this.printbtn.Image = global::mnotepad.Properties.Resources.Documents_Folder_Black;
             this.printbtn.Name = "printbtn";
-            this.printbtn.Size = new System.Drawing.Size(174, 36);
+            this.printbtn.Size = new System.Drawing.Size(194, 36);
             this.printbtn.Text = "چاپ";
+            this.printbtn.Click += new System.EventHandler(this.printbtn_Click);
             // 
             // exitbtn
             // 
             this.exitbtn.Image = ((System.Drawing.Image)(resources.GetObject("exitbtn.Image")));
             this.exitbtn.Name = "exitbtn";
-            this.exitbtn.Size = new System.Drawing.Size(174, 36);
+            this.exitbtn.Size = new System.Drawing.Size(194, 36);
             this.exitbtn.Text = "خروج";
             this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
             // 
@@ -149,7 +150,7 @@
             // 
             this.copybtn.Image = ((System.Drawing.Image)(resources.GetObject("copybtn.Image")));
             this.copybtn.Name = "copybtn";
-            this.copybtn.Size = new System.Drawing.Size(136, 36);
+            this.copybtn.Size = new System.Drawing.Size(194, 36);
             this.copybtn.Text = "کپی";
             this.copybtn.Click += new System.EventHandler(this.copybtn_Click);
             // 
@@ -157,7 +158,7 @@
             // 
             this.pastebtn.Image = global::mnotepad.Properties.Resources.Documents_Folder_Black1;
             this.pastebtn.Name = "pastebtn";
-            this.pastebtn.Size = new System.Drawing.Size(136, 36);
+            this.pastebtn.Size = new System.Drawing.Size(194, 36);
             this.pastebtn.Text = "چسباندن";
             this.pastebtn.Click += new System.EventHandler(this.pastebtn_Click);
             // 
@@ -165,7 +166,7 @@
             // 
             this.deletebtn.Image = global::mnotepad.Properties.Resources.System_Folder_Alt;
             this.deletebtn.Name = "deletebtn";
-            this.deletebtn.Size = new System.Drawing.Size(136, 36);
+            this.deletebtn.Size = new System.Drawing.Size(194, 36);
             this.deletebtn.Text = "حذف";
             this.deletebtn.Click += new System.EventHandler(this.deletebtn_Click);
             // 
@@ -173,14 +174,15 @@
             // 
             this.findbtn.Image = global::mnotepad.Properties.Resources.Sites_Folder_Black;
             this.findbtn.Name = "findbtn";
-            this.findbtn.Size = new System.Drawing.Size(136, 36);
+            this.findbtn.Size = new System.Drawing.Size(194, 36);
             this.findbtn.Text = "یافتن";
+            this.findbtn.Click += new System.EventHandler(this.findbtn_Click);
             // 
             // fontbtn
             // 
             this.fontbtn.Image = global::mnotepad.Properties.Resources.Applications_Folder_Black;
             this.fontbtn.Name = "fontbtn";
-            this.fontbtn.Size = new System.Drawing.Size(136, 36);
+            this.fontbtn.Size = new System.Drawing.Size(194, 36);
             this.fontbtn.Text = "فونت";
             this.fontbtn.Click += new System.EventHandler(this.fontbtn_Click);
             // 

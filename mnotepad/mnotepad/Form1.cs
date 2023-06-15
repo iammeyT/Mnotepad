@@ -258,5 +258,15 @@ namespace mnotepad
         {
             setingmenu.BackColor = Color.Red;
         }
+
+        private void findbtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("...به زودی","خطا",MessageBoxButtons.OK);
+        }
+
+        private void printbtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("...به زودی", "خطا", MessageBoxButtons.OK);
+        }
     }
 }
